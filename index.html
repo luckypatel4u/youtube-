@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube.com</title>
+</head>
+<link rel="stylesheet" href="/css/first.css">
+</style>
+</style>
+<body>
+    <nav class="flex-div">
+        <div class="navleft">
+             <img  class="menu" src="/img/img_menu-removebg-preview.png" alt="">
+             <img class="logo" src="/img/youtube 1.png" alt="">
+        </div>
+        <div class="navmiddle">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="search">
+                <img class="search" src="/img/search.png">
+                <img class="voice" src="/img/voice.png" alt="">
+            </div>
+        </div>
+        <div class="navright flex-div">
+            <img  src="/img/create.png" alt="">
+            <img  src="/img/notification-icon-clipart-white-2-removebg-preview.png" alt="">
+            <img class="gitar" src="/img/gitar.jpg" alt="">
+        </div>
+    </nav>
+    <!-- ------- sidebar   ------  -->
+    <div class="sidebar">
+        <div class="shortcut-links">
+            <a href=" "><img src="/img/home.png"><p>Home</p></a>
+            <a href=" "><img src="/img/short.png"><p>Shorts</p></a>
+            <a href=" "><img src="/img/subs.png"><p>Subscriprion</p></a>
+            <a href=" "><img src="/img/lib.png"><p>Library</p></a>
+            <a href=" "><img src="/img/his.png"><p>History</p></a>
+            <a href=" "><img src="/img/like.png"><p>Like</p></a>
+            <hr>     
+        </div>
+        <div class="subscribed-list">
+            <h3>SUBSCRIBED</h3>
+            <a href=""><img src="/img/gitar.jpg"><p> RK Creation</p></a>
+            <a href=""><img src="/img/gitar.jpg"><p>Simon Baker</p></a>
+            <a href=""><img src="/img/gitar.jpg"><p>Royal Lucky</p></a>
+            <a href=""><img src="/img/gitar.jpg"><p>RK Patel</p></a>
+            <a href=""><img src="/img/gitar.jpg"><p>RK don</p></a>
+
+        </div>
+    </div>
+    <!-------     ----main----       ------->
+    <div class="container">
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="/second.html"><img src="/img/IMG_20220901_110836_225 (2).jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="/img/IMG_20220901_110836_225 (2).jpg">
+                    <div class="vid-info">
+                        <a href="second.html">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                        <p>Royal Lucky</p>
+                        <p>15k Views7 &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>   
+            <div class="vid-list">
+                <a href=""><img src="/img/gitar.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="/img/IMG_20220901_110836_225 (2).jpg">
+                    <div class="vid-info">
+                        <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                        <p>Royal Lucky</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>    <div class="vid-list">
+                <a href=""><img src="/img/gitar.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="/img/IMG_20220901_110836_225 (2).jpg">
+                    <div class="vid-info">
+                        <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                        <p>Royal Lucky</p>
+                        <p>15k Views 2 &bull; days</p>
+                    </div>
+                </div>
+            </div>    <div class="vid-list">
+                <a href=""><img src="/img/gitar.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="/img/IMG_20220901_110836_225 (2).jpg">
+                    <div class="vid-info">
+                        <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                        <p>Royal Lucky</p>
+                        <p>15k Views 2 &bull;days</p>
+                    </div>
+                </div>
+            </div>    <div class="vid-list">
+                <a href=""><img src="/img/gitar.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="/img/IMG_20220901_110836_225 (2).jpg">
+                    <div class="vid-info">
+                        <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                        <p>Royal Lucky</p>
+                        <p>15k Views 2 &bull;days</p>
+                    </div>
+                </div>
+            </div>    <div class="vid-list">
+                <a href=""><img src="/img/gitar.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="/img/IMG_20220901_110836_225 (2).jpg">
+                    <div class="vid-info">
+                        <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                        <p>Royal Lucky</p>
+                        <p>15k Views 2 &bull;days</p>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+
+
+
+    
+    <script>
+        var menuIcon = document.querySelector(".menu");
+        var sidebar = document.querySelector(".sidebar");
+        var container = document.querySelector(".container");
+    
+        menuIcon.onclick = function(){
+            sidebar.classList.toggle("small"); 
+            container.classList.toggle("large-container");
+        }
+        
+    </script>
+</body>
+</html>
